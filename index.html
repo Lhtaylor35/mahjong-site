@@ -26,8 +26,8 @@
    <header class="jumbotron">
         <div class ="container">
             <div class ="row">
-                <div class="col-4 col-sm-3 col-md-2 align-self-center">
-                    <img src="img/mahjong-red-dragon-facebook.png" class="img-fluid" alt="" />
+                <div class="col-2 col-sm-2 col-md-2 align-self-center">
+                    <img src="img/mahjong-red-dragon-facebook.png" class="img-fluid" alt="red-dragon-tile" />
                 </div>
                 <div class="col">
                     <h1 class="display-4">Mahjong</h1>
@@ -44,35 +44,96 @@
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link" href="#">How-To-Play</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Scoring Table</a></li>
+                    <li class="nav-item"><a class="nav-link" href="scoringtable.html">Scoring Table</a></li>
                     <li class="nav-item"><a class="nav-link" href="#"></a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div class="row row-content">
-        <ul class="list-groupf">
-            <li class="list-group-item"><a href="#">Overview</a></li>
-            <li class="list-group-item">Set Up</li>
-            <li class="list-group-item">Turn Order</li>
-            <li class="list-group-item">Calling Tiles</li>
-            <li class="list-group-item">Suits</li>
-            <li class="list-group-item">Winning Hands</li>
-        </ul>
-        <div class="col-sm-9">
-            <h3>Overview</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum culpa necessitatibus quis, officia beatae illo. Voluptates nesciunt, reprehenderit recusandae, quis itaque velit magnam, vero iure aliquam vitae beatae quos. Sed. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, quo? Blanditiis provident, ipsam voluptas obcaecati totam quasi minus ducimus modi rem sapiente eaque expedita eius possimus, autem nulla. Blanditiis, adipisci! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa repellendus delectus magnam temporibus impedit explicabo excepturi eos vero blanditiis illum cumque maxime maiores quae quia mollitia corporis, nam eligendi veniam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eveniet veritatis accusantium harum aspernatur. Maiores officia aliquid natus modi libero repellat quaerat labore. Nemo dolor deserunt culpa modi corrupti dolores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Est rerum dolorum alias facere, quia voluptates incidunt. Odio eos non, est tenetur commodi voluptatum molestiae corrupti, cum cupiditate, iusto sapiente harum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus laborum obcaecati fuga quidem rerum ea voluptate incidunt debitis dolores mollitia voluptatem illum at accusamus, quibusdam quas cupiditate amet earum dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit. A minus, facere recusandae esse quam dignissimos ratione nam officiis qui neque fugit exercitationem eligendi sapiente, porro facilis nesciunt ea. Recusandae, voluptatum?</p>
-            <!-- <p class="lead">Did you know, Mahjong is a centuries-old game that has long been a favourite pastime for Chinese families and friends? The game is said to have a history in Chinese culture stretching back more than 2500 years, evolving from a simple game using silk-printed cards. Modern-day tiles are based on Chinese characters and symbols. Mahjong is a social game that requires precision, skill, strategy and luck.</p> -->
+    <div class="row">
+        <div class="col-4">
+          <div class="list-group" id="list-tab" role="tablist">
+            <a class="list-group-item list-group-item-action active" id="list-overview-list" data-toggle="list" href="#list-overview" role="tab" aria-controls="overview">Overview</a>
+            <a class="list-group-item list-group-item-action" id="list-set-up-list" data-toggle="list" href="#list-set-up" role="tab" aria-controls="set-up">Set Up</a>
+            <a class="list-group-item list-group-item-action" id="list-turn-order-list" data-toggle="list" href="#list-turn-order" role="tab" aria-controls="turn-order">Turn Order</a>
+            <a class="list-group-item list-group-item-action" id="list-calling-tiles-list" data-toggle="list" href="#list-calling-tiles" role="tab" aria-controls="calling-tiles">Calling Tiles</a>
+            <a class="list-group-item list-group-item-action" id="list-suits-list" data-toggle="list" href="#list-suits" role="tab" aria-controls="suits">Suits</a>
+            <a class="list-group-item list-group-item-action" id="list-win-hand-list" data-toggle="list" href="#list-win-hand" role="tab" aria-controls="winning-hand">Winning Hands</a>
+          </div>
         </div>
-    </div>
+        <div class="col-8">
+          <div class="tab-content" id="nav-tabContent">
+            <div class="col sm-9 tab-pane fade show active" id="list-overview" role="tabpanel" aria-labelledby="list-overview-list">
+                <h3>Overview</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum culpa necessitatibus quis, officia beatae illo. Voluptates nesciunt, 
+                    reprehenderit recusandae, quis itaque velit magnam, vero iure aliquam vitae beatae quos. Sed. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Odio, quo? Blanditiis provident, ipsam voluptas obcaecati totam quasi minus ducimus modi rem sapiente eaque expedita eius possimus, autem nulla. Blanditiis, adipisci!
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa repellendus delectus magnam temporibus impedit explicabo excepturi eos vero blanditiis illum cumque maxime 
+                      maiores quae quia mollitia corporis, nam eligendi veniam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eveniet veritatis accusantium harum aspernatur. 
+                      Maiores officia aliquid natus modi libero repellat quaerat labore. Nemo dolor deserunt culpa modi corrupti dolores? Lorem ipsum dolor sit amet consectetur adipisicing 
+                      elit. Est rerum dolorum alias facere, quia voluptates incidunt. Odio eos non, est tenetur commodi voluptatum molestiae corrupti, cum cupiditate, iusto sapiente harum! 
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus laborum obcaecati fuga quidem rerum ea voluptate incidunt debitis dolores mollitia voluptatem illum 
+                      at accusamus, quibusdam quas cupiditate amet earum dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit. A minus, facere recusandae esse quam dignissimos ratione 
+                      nam officiis qui neque fugit exercitationem eligendi sapiente, porro facilis nesciunt ea. Recusandae, voluptatum?</p>
+            </div>
+            <div class="col sm-9 tab-pane fade" id="list-set-up" role="tabpanel" aria-labelledby="list-set-up-list">
+                <h3 id="set-up">Set Up</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam qui rem doloribus at unde ea inventore veniam dolore cumque? Est sapiente accusamus neque repellat quisquam officia ullam consequuntur possimus porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt magni quis dolor ab. Repudiandae nisi aperiam temporibus natus illo facilis aspernatur sed totam pariatur praesentium? Sit quis veritatis labore quas. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio dolor amet error, assumenda omnis impedit nam est autem quia! Culpa quas corporis necessitatibus illo, incidunt magni aut assumenda possimus repudiandae.</p>
+           
 
-    <div class="row row-content offset-1">
-        <div class="col-sm-9">
-            <h3>Set Up</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam qui rem doloribus at unde ea inventore veniam dolore cumque? Est sapiente accusamus neque repellat quisquam officia ullam consequuntur possimus porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt magni quis dolor ab. Repudiandae nisi aperiam temporibus natus illo facilis aspernatur sed totam pariatur praesentium? Sit quis veritatis labore quas. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio dolor amet error, assumenda omnis impedit nam est autem quia! Culpa quas corporis necessitatibus illo, incidunt magni aut assumenda possimus repudiandae.</p>
+            </div>
+            <div class="tab-pane fade" id="list-turn-order" role="tabpanel" aria-labelledby="list-turn-order-list">
+
+                <h3 id="turn-order">Turn Order</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam qui rem doloribus at unde ea inventore veniam dolore cumque? Est sapiente accusamus neque repellat quisquam officia ullam consequuntur possimus porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt magni quis dolor ab. Repudiandae nisi aperiam temporibus natus illo facilis aspernatur sed totam pariatur praesentium? Sit quis veritatis labore quas. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio dolor amet error, assumenda omnis impedit nam est autem quia! Culpa quas corporis necessitatibus illo, incidunt magni aut assumenda possimus repudiandae.</p>
+           
+            </div>
+            <div class="tab-pane fade" id="list-calling-tiles" role="tabpanel" aria-labelledby="list-calling-tiles-list">
+                <h3 id="call-tiles">Calling Tiles</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam qui rem doloribus at unde ea inventore veniam dolore cumque? Est sapiente accusamus neque repellat quisquam officia ullam consequuntur possimus porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt magni quis dolor ab. Repudiandae nisi aperiam temporibus natus illo facilis aspernatur sed totam pariatur praesentium? Sit quis veritatis labore quas. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio dolor amet error, assumenda omnis impedit nam est autem quia! Culpa quas corporis necessitatibus illo, incidunt magni aut assumenda possimus repudiandae.</p>
+           
+            </div>
+            <div class="col sm-9 tab-pane fade" id="list-suits" role="tabpanel" aria-labelledby="list-suits-list">
+                <h3 id="suits">Suits</h3>
+                <p></p>
+                <div class="col align-self-center">
+                    <img src="img/suit-tiles.jpg" class="img-fluid" alt="suit-tiles">
+                </div>
+            </div>
+            <div class="tab-pane fade" id="list-win-hand" role="tabpanel" aria-labelledby="list-win-hand-list">
+                
+                <h3 id="win-hand">Winning Hands</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam qui rem doloribus at unde ea inventore veniam dolore cumque? Est sapiente accusamus neque repellat quisquam officia ullam consequuntur possimus porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt magni quis dolor ab. Repudiandae nisi aperiam temporibus natus illo facilis aspernatur sed totam pariatur praesentium? Sit quis veritatis labore quas. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio dolor amet error, assumenda omnis impedit nam est autem quia! Culpa quas corporis necessitatibus illo, incidunt magni aut assumenda possimus repudiandae.</p>
+           
+            </div>
+          </div>
         </div>
+      </div>
+
+
+    <!-- <div class="row row-content">
+    <div class= col-4>
+        <ul class="list-groupf" id="myList" role="tablist">
+            <li class="list-group-item list-group-item-action active" id="overview-list" data-toggle="list" href="#overview" role="tab" aria-controls="overview">Overview</li>
+            <li class="list-group-item list-group-item-action" id="set-up-list" data-toggle="list" href="#set-up" role="tab">Set Up</li>
+            <li class="list-group-item list-group-item-action" id="turn-order-list" data-toggle="list" href="#turn-order" role="tab">Turn Order</li>
+            <li class="list-group-item list-group-item-action" id="call-tiles-list" data-toggle="list" href="#call-tiles" role="tab">Calling Tiles</li>
+            <li class="list-group-item list-group-item-action" id="suits-list" data-toggle="list" href="#suits" role="tab">Suits</li>
+            <li class="list-group-item list-group-item-action"id="win-hand-list" data-toggle="list" href="#win-hand" role="tab">Winning Hands</li>
+        </ul>
     </div>
+    <div class= col-8>
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="overview" role="tabpanel">Overviewioeoweiwoiweiwoiweoiweoew</div>
+            <div class="tab-pane fade" id="set-up" role="tabpanel">Setupseposesese</div>
+            <div class="tab-pane fade" id="turn-order" role="tabpanel">asfaefawefawefawe</div>
+            <div class="tab-pane fade" id="call-tiles" role="tabpanel">dddddddddddddd</div>
+        </div>
+    </div>-->
+
+
+    
 
 
     <footer>

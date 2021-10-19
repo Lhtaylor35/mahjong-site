@@ -1,6 +1,6 @@
 .jumbotron {
     margin: 0;
-    padding:30px;
+    padding:10px;
     background-image: url("../img/tiles.jpg");
     background-size: cover;
     
@@ -28,4 +28,10 @@ body {
 
 .navbar :any-link {
     color: white;
+}
+#list-tab{
+    margin: 10px;
+}
+.tab-pane{
+    margin: 10px;
 }
