@@ -20,11 +20,16 @@ body {
 }
 
 .navbar {
-    background-color: aquamarine;
+    background-color: rgb(99, 189, 99);
+}
+
+.navbar-toggler {
+    color: white;
 }
 
 .nav-item {
     background-color: rgb(99, 189, 99);
+    font-size: 20px;
 }
 
 .navbar :any-link {
