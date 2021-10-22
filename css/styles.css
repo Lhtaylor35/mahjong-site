@@ -35,9 +35,11 @@ body {
 .navbar :any-link {
     color: white;
 }
+
 #list-tab{
     margin: 10px;
 }
+
 .tab-pane{
     margin: 10px;
 }
