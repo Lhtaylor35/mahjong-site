@@ -43,6 +43,10 @@ body {
 .tab-pane{
     margin: 10px;
 }
+
+table, th, td {
+    border: 1px solid black;
+}
 /* @media (max-width: 768px) {
     #list-tab{
         display: none !important;
