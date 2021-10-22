@@ -41,3 +41,8 @@ body {
 .tab-pane{
     margin: 10px;
 }
+/* @media (max-width: 768px) {
+    #list-tab{
+        display: none !important;
+    }
+} */
