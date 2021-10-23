@@ -8,10 +8,14 @@
 
 h1 {
     color:red;
+    font-family: 'Cookie', cursive;
 }
 
 h2 {
     color:green;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 30px;
+    margin-top: -20px;
 }
 
 body {
@@ -29,7 +33,8 @@ body {
 
 .nav-item {
     background-color: rgb(99, 189, 99);
-    font-size: 20px;
+    font-size: 22px;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .navbar :any-link {
@@ -55,9 +60,20 @@ table, th, td {
     }
 } */
 footer{
-    margin-top: 10px;
+    margin-top: 20px;
     color:white;
     padding:10px;
-    background-color: rgb(99, 189, 99);
+    background-color: rgb(146, 187, 146);
    
+}
+
+footer h3 {
+    font-family: 'Cookie', cursive;
+    font-size: 50px;
+}
+
+footer h4 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+    margin-top: -10px;
 }
