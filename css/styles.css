@@ -54,3 +54,10 @@ table, th, td {
         display: none !important;
     }
 } */
+footer{
+    margin-top: 10px;
+    color:white;
+    padding:10px;
+    background-color: rgb(99, 189, 99);
+   
+}
