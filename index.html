@@ -18,31 +18,32 @@
 
 <body data-spy="scroll" data-target="#nav-tabContent">
    <!-- ======================Header========================================= -->
-   <header class="jumbotron">
+   <header class="jumbotron jumbotron-fluid">
         <div class ="container">
             <div class ="row">
-                <div class="col-2 col-sm-2 col-md-2 align-self-center">
-                    <img src="img/mahjong-red-dragon-facebook.png" class="img-fluid" alt="red-dragon-tile" />
-                </div>
                 <div class="col">
-                    <h1 class="display-4">Mahjong</h1>
-                    <h2>for Beginners</h2>
-                </div>
-                
+                    <div class="media">
+                        <img src="img/mahjong-red-dragon-facebook.png" class="col-2 img-fluid ml-auto d-none d-md-block" alt="red-dragon-tile" />
+                        <div class="align-self-center text-center media-body col col-md-4 mr-auto">
+                            <h1 class="display-4"><b>Mahjong</b></h1>
+                            <h2>for Beginners</h2>
+                        </div>
+                    </div>
+                </div>              
             </div>
         </div>
     </header>
 
 <!-- =================navbar================== -->
     <nav class="navbar navbar-expand-sm navbar-dark">
-        <div class="container ml-0">
+        <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mahjongNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="mahjongNavbar">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav mx-auto">
                     <li class="nav-item active"><a class="nav-link mr-5" href="#"><i class="fa fa-thumbs-up fa-lg"></i> How-To-Play</a></li>
-                    <li class="nav-item"><a class="nav-link" href="scoringtable.html"><i class="fa fa-trophy fa-lg"></i> Scoring Table</a></li>
+                    <li class="nav-item"><a class="nav-link ml-5" href="scoringtable.html"><i class="fa fa-trophy fa-lg"></i> Scoring Table</a></li>
                 </ul>
             </div>
         </div>
@@ -67,7 +68,7 @@
 <!-- Overview -->
                 <div class="col tab-pane fade show active" id="list-overview" role="tabpanel" aria-labelledby="list-overview-list">
                     <h3 class="col">Overview</h3>
-                    <img src="img/set-up2.jpg" alt="mahjong setup" class="col-10 col-sm-8"/>
+                    <img src="img/set-up2.jpg" alt="mahjong setup" class="col-10 col-sm-9"/>
                     <br />
                     <br />
                     <p class="col-sm-9">
@@ -159,7 +160,7 @@
                     <p class="col-sm-9">
                         Once the faan value of the winning hand is determined, a points system may be used to determine how much money should be paid out. The exact amount of money that each point is worth is arbitrary and is to be established by the players. If the winning tile was a claimed discard, the discarder pays double the value of the hand, while the other players pay the normal value. If the winning tile was self-drawn from the wall, all players pay double to the winner. See below for a faan to points conversion:
                     </p>
-                    <table class="col-3 offset-1">
+                    <table class="col-10 col-sm-3 offset-1">
                         <tr>
                             <th>Faan</th>
                             <th>Points</th>

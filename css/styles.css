@@ -46,7 +46,9 @@ body {
 
 table, th, td {
     border: 1px solid black;
+    background-color: rgb(225, 247, 232);
 }
+
 /* @media (max-width: 768px) {
     #list-tab{
         display: none !important;
