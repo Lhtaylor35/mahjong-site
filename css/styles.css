@@ -59,6 +59,7 @@ table, th, td {
     }
 } */
 footer{
+    position:relative;
     margin-top: 20px;
     color:white;
     padding:10px;
