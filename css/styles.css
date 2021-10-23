@@ -24,7 +24,7 @@ body {
 }
 
 .navbar {
-    background-color: rgb(99, 189, 99);
+    background-color: rgb(27, 83, 27);
 }
 
 .navbar-toggler {
@@ -32,7 +32,6 @@ body {
 }
 
 .nav-item {
-    background-color: rgb(99, 189, 99);
     font-size: 22px;
     font-family: 'PT Sans Narrow', sans-serif;
 }
